@@ -62,7 +62,7 @@
       <link businessObjects="/1/@task.1 /0/@children.2"/>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="50" height="50" x="317" y="190">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="50" height="50" x="320" y="196">
         <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="50" height="50" style="/0/@styles.0" cornerHeight="20" cornerWidth="20"/>
         <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="IMG_RANDOMGENERATOR_DIAGRAM" stretchH="false" stretchV="false" proportional="false"/>
       </graphicsAlgorithm>
@@ -85,7 +85,7 @@
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="label" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="117" height="20" x="284" y="242">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="117" height="20" x="287" y="248">
         <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="117" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="My Random Generator"/>
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.2 /0/@children.4"/>
@@ -137,9 +137,12 @@
     </task>
     <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1">
       <outputPort id="Out">
-        <dataType xsi:type="dt:Int32"/>
+        <dataType xsi:type="dt:Text"/>
       </outputPort>
       <dataType xsi:type="dt:Text"/>
+      <specific key="TEXT_TYPE" value="ALPHANUMERIC"/>
+      <specific key="TEXT_LENGTH" value="5"/>
+      <specific key="TEXT_CASE" value="ANY"/>
     </task>
     <connection xsi:type="sic:SimpleConnection" sourceRef="/1/@task.2/@outputPort.0" targetRef="/1/@task.0/@inputPort.0"/>
     <connection xsi:type="sic:SimpleConnection" sourceRef="/1/@task.2/@outputPort.0" targetRef="/1/@task.1/@inputPort.0"/>
