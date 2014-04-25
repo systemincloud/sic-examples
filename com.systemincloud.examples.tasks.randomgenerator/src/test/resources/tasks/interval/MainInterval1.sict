@@ -33,14 +33,17 @@
       <link businessObjects="/1/@task.0 /0/@children.0"/>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="50" height="50" x="213" y="145">
-        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="50" height="50" style="/0/@styles.0" cornerHeight="20" cornerWidth="20"/>
-        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="IMG_RANDOMGENERATOR_DIAGRAM" stretchH="false" stretchV="false" proportional="false"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="55" height="55" x="214" y="144">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="55" height="55" style="/0/@styles.0" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="44" height="44" x="5" y="5" id="IMG_RANDOMGENERATOR_DIAGRAM" stretchH="false" stretchV="false" proportional="false"/>
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="55" height="11" y="44" style="/0/@styles.0" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Text">
+          <properties key="icon-description" value="true"/>
+        </graphicsAlgorithmChildren>
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.1 /0/@children.3"/>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="internal-port" value="true"/>
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="10" height="10" x="40" y="20" cornerHeight="5" cornerWidth="5">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="10" height="10" x="45" y="22" cornerHeight="5" cornerWidth="5">
           <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="10" height="10" style="/0/@styles.1" cornerHeight="5" cornerWidth="5"/>
         </graphicsAlgorithm>
         <link businessObjects="/1/@task.1/@outputPort.0 /0/@children.2/@children.1"/>
@@ -48,7 +51,7 @@
       </children>
       <children xsi:type="pi:ContainerShape">
         <properties key="port-label" value="true"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="23" height="20" x="18" y="17">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="23" height="20" x="23" y="19">
           <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="22" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Out"/>
         </graphicsAlgorithm>
         <link businessObjects="/1/@task.1/@outputPort.0 /0/@children.2/@children.0"/>
@@ -56,8 +59,8 @@
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="label" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="117" height="20" x="180" y="197">
-        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="117" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="My Random Generator"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="42" height="20" x="222" y="201">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="42" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="500 ms"/>
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.1 /0/@children.2"/>
     </children>
@@ -88,7 +91,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1" interval="500ms">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="500 ms" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1" interval="500ms">
       <outputPort id="Out">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
