@@ -59,8 +59,8 @@
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="label" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="117" height="20" x="175" y="201">
-        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="117" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="My Random Generator"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="43" height="20" x="212" y="201">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="43" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="%u[0,1]"/>
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.1 /0/@children.2"/>
     </children>
@@ -91,7 +91,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1,4">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%u[0,1]" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1,4">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float32"/>
       </outputPort>
