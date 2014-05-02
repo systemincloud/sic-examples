@@ -30,8 +30,8 @@
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="label" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="43" height="20" x="141" y="180">
-        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="43" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Float64"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="55" height="20" x="135" y="180">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="55" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="%n[0,100]"/>
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.0 /0/@children.0"/>
     </children>
@@ -106,8 +106,8 @@
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="label" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="71" height="20" x="310" y="188">
-        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="71" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="My Java Task"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="16" height="20" x="338" y="188">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="16" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="/2"/>
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.2 /0/@children.4"/>
     </children>
@@ -198,7 +198,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.1.0">
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="Float64" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%n[0,100]" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float64"/>
       </outputPort>
@@ -210,7 +210,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="tasks.data.MainDataFloat64">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="/2" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="tasks.data.MainDataFloat64">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float64"/>
       </outputPort>
