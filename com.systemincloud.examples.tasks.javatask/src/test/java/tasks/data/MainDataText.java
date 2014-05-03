@@ -19,6 +19,6 @@ public class MainDataText extends JavaTask {
 	@Override
 	public void execute() {
 		Text inText = in.getData(Text.class);
-		out.putData(new Text("Generated " + inText.getValues().get(0)));
+		out.putData(new Text("Generated " + inText.getValue()));
 	}
 }
