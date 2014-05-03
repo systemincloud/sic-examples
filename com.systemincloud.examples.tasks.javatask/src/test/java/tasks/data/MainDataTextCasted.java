@@ -9,7 +9,7 @@ import com.systemincloud.modeler.tasks.javatask.api.annotations.OutputPortInfo;
 import com.systemincloud.modeler.tasks.javatask.api.data.Text;
 
 @JavaTaskInfo
-public class MainDataTextCastedBool extends JavaTask {
+public class MainDataTextCasted extends JavaTask {
 
 	@InputPortInfo(name = "In", dataType = Text.class)
 	public InputPort in;
