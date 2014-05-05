@@ -1,4 +1,4 @@
-package tasks.data;
+package tasks.datacast;
 
 import com.systemincloud.modeler.tasks.javatask.api.InputPort;
 import com.systemincloud.modeler.tasks.javatask.api.JavaTask;
