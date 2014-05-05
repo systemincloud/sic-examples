@@ -355,14 +355,14 @@
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,5]"/>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="2s" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="2s" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1" interval="2s">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float32"/>
       </outputPort>
       <dataType xsi:type="dt:Float32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[5,10]"/>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="3s" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="3s" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1" interval="3s">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float64"/>
       </outputPort>
