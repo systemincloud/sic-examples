@@ -31,6 +31,7 @@ public class MainGeneratorAtomicWith2SIn1AIn extends JavaTask {
 	@Override
 	public void generate() {
 		if(on) out.putData(new Int32(637343730));
+		sleep(500);
 	}
 
 	@Override
