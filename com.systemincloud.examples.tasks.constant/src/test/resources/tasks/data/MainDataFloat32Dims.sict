@@ -6,7 +6,7 @@
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="98" height="51" x="67" y="167">
         <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="98" height="51" style="/0/@styles.0" cornerHeight="20" cornerWidth="20"/>
-        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="84" height="37" x="7" y="7" style="/0/@styles.0" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="-30"/>
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="84" height="37" x="7" y="7" style="/0/@styles.0" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value=" [5.0, 4.0, 3.0; 2.0, 1.0, 0.0] "/>
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.0 /0/@children.1"/>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -83,7 +83,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.1.0">
-    <task xsi:type="constant_0_1_0:Constant" id="My Constant" bundleName="com.systemincloud.modeler.tasks.constant" version="0.1.0" value="-30">
+    <task xsi:type="constant_0_1_0:Constant" id="My Constant" bundleName="com.systemincloud.modeler.tasks.constant" version="0.1.0" value=" [5.0, 4.0, 3.0; 2.0, 1.0, 0.0] ">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float32"/>
       </outputPort>
