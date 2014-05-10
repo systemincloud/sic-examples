@@ -141,20 +141,20 @@
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.1.0">
     <task xsi:type="console_0_1_0:Console" id="2" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0" consoleType="INOUT">
-      <outputPort id="Out">
+      <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
-      <inputPort id="In">
+      <inputPort id="In" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
     <task xsi:type="console_0_1_0:Console" id="1" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0" consoleType="OUT">
-      <outputPort id="Out">
+      <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
     </task>
     <task xsi:type="console_0_1_0:Console" id="3" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
-      <inputPort id="In">
+      <inputPort id="In" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
