@@ -7,7 +7,7 @@
       <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="279" height="70" x="241" y="149">
         <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="279" height="70" style="/0/@styles.0" cornerHeight="20" cornerWidth="20"/>
         <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="279" height="70" id="IMG_EMBEDDEDTASK_DIAGRAM_TEST" stretchH="false" stretchV="false" proportional="false"/>
-        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="279" height="26" y="44" style="/0/@styles.0" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="EmptyAtomic2SIn1AIn_Embedded.sict">
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="279" height="26" y="44" style="/0/@styles.0" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="EmptyAtomic2SIn_Embedded.sict">
           <properties key="icon-description" value="true"/>
         </graphicsAlgorithmChildren>
       </graphicsAlgorithm>
@@ -271,7 +271,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.1.0">
-    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.1.0" implementationTask="src/test/resources/tasks/empty/EmptyAtomic2SIn1AIn_Embedded.sict">
+    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.1.0" implementationTask="src/test/resources/tasks/empty/EmptyAtomic2SIn_Embedded.sict">
       <outputPort id="Out1" parent="/1/@task.0"/>
       <outputPort id="Out2" parent="/1/@task.0"/>
       <inputPort id="In1" parent="/1/@task.0"/>
