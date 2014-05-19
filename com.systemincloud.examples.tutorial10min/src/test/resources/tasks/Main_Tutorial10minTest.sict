@@ -183,8 +183,8 @@
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="label" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="95" height="20" x="411" y="208">
-        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="94" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Prepate for display"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="110" height="20" x="409" y="208">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="110" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Prepare for display"/>
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.3 /0/@children.6"/>
     </children>
@@ -376,7 +376,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Prepate for display" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="com.systemincloud.examples.tutorial10min.PrepareForDisplay">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Prepare for display" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="com.systemincloud.examples.tutorial10min.PrepareForDisplay">
       <outputPort id="Out" parent="/1/@task.3">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
