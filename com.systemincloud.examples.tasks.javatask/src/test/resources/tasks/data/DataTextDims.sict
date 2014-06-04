@@ -145,7 +145,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.0">
+  <sic:MainTask initialized="true" version="0.1.1">
     <task xsi:type="javatask_0_1_0:JavaTask" id="To upper case" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="tasks.data.DataTextDims">
       <outputPort id="Out">
         <dataType xsi:type="dt:Text"/>
@@ -154,7 +154,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="rand" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="3,4">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="rand" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.1" dimensions="3,4">
       <outputPort id="Out">
         <dataType xsi:type="dt:Text"/>
       </outputPort>

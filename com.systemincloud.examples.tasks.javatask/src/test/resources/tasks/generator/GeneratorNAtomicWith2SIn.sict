@@ -209,7 +209,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.0">
+  <sic:MainTask initialized="true" version="0.1.1">
     <task xsi:type="javatask_0_1_0:JavaTask" id="MUX" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="tasks.generator.GeneratorNAtomicWith2SIn">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int32"/>
@@ -226,14 +226,14 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.1" dimensions="1">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,3]"/>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s " generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.0" dimensions="1" interval="2s">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s " generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.1" dimensions="1" interval="2s">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

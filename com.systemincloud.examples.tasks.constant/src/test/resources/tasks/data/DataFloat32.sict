@@ -82,8 +82,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.0">
-    <task xsi:type="constant_0_1_0:Constant" id="My Constant" bundleName="com.systemincloud.modeler.tasks.constant" version="0.1.0" value="-30">
+  <sic:MainTask initialized="true" version="0.1.1">
+    <task xsi:type="constant_0_1_0:Constant" id="My Constant" bundleName="com.systemincloud.modeler.tasks.constant" version="0.1.1" value="-30">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float32"/>
       </outputPort>
