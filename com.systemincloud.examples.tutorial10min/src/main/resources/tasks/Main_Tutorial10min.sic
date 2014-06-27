@@ -155,11 +155,11 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.1">
+  <sic:MainTask initialized="true" version="0.2.0">
     <inputPort id="In"/>
     <outputPort id="X"/>
     <outputPort id="Y"/>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Count f" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="com.systemincloud.examples.tutorial10min.CountDensityFunction">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Count f" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.0" implementationClass="com.systemincloud.examples.tutorial10min.CountDensityFunction">
       <outputPort id="X" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

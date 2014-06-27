@@ -145,8 +145,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.1">
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%u[0,5]" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.1" dimensions="1">
+  <sic:MainTask initialized="true" version="0.2.0">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%u[0,5]" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.0" dimensions="1">
       <outputPort id="Out">
         <dataType xsi:type="dt:Decimal"/>
       </outputPort>
@@ -154,7 +154,7 @@
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,5]"/>
       <specific key="DECIMAL_NUMBER" value="2"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Move point right" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="tasks.data.DataDecimal">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Move point right" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.0" implementationClass="tasks.data.DataDecimal">
       <outputPort id="Out">
         <dataType xsi:type="dt:Decimal"/>
       </outputPort>

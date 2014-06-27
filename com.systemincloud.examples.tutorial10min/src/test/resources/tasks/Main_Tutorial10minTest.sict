@@ -352,7 +352,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.1">
+  <sic:MainTask initialized="true" version="0.2.0">
     <task xsi:type="sic:EmbeddedTask" id="Main_Tutorial10min" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.1.0" implementationTask="src/main/resources/tasks/Main_Tutorial10min.sic">
       <outputPort id="X" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
@@ -364,7 +364,7 @@
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%n[0,3]" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.1" dimensions="1" interval="100ms">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%n[0,3]" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.0" dimensions="1" interval="100ms">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
@@ -376,7 +376,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Prepare for display" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.1.0" implementationClass="com.systemincloud.examples.tutorial10min.PrepareForDisplay">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Prepare for display" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.0" implementationClass="com.systemincloud.examples.tutorial10min.PrepareForDisplay">
       <outputPort id="Out" parent="/1/@task.3">
         <dataType xsi:type="dt:Text"/>
       </outputPort>

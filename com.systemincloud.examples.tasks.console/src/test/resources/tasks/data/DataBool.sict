@@ -85,8 +85,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.1">
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="2x2" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.1" dimensions="2,2">
+  <sic:MainTask initialized="true" version="0.2.0">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="2x2" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.0" dimensions="2,2">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Bool"/>
       </outputPort>
