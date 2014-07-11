@@ -271,7 +271,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.2.0">
-    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" atomic="false" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.1.0" implementationTask="src/test/resources/tasks/empty/EmptyNAtomic2SIn_Embedded.sict">
+    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" atomic="false" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.2.0" implementationTask="src/test/resources/tasks/empty/EmptyNAtomic2SIn_Embedded.sict">
       <outputPort id="Out1" parent="/1/@task.0"/>
       <outputPort id="Out2" parent="/1/@task.0"/>
       <inputPort id="In1" parent="/1/@task.0"/>
