@@ -300,7 +300,7 @@
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,3]"/>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In" parent="/1/@task.4">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

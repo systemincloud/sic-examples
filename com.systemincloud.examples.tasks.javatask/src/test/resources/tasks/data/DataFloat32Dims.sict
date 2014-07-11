@@ -205,12 +205,12 @@
       <dataType xsi:type="dt:Float32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%n[0,5]"/>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show In" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show In" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show Out" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show Out" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

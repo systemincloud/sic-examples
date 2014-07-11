@@ -331,7 +331,7 @@
         <dataType xsi:type="dt:Bool"/>
       </inputPort>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show Out" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show Out" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
@@ -343,12 +343,12 @@
       <dataType xsi:type="dt:Bool"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,1]"/>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show In1" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show In1" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show In2" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show In2" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

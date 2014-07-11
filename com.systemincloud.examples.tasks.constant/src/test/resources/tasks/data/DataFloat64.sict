@@ -89,7 +89,7 @@
       </outputPort>
       <dataType xsi:type="dt:Float64"/>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

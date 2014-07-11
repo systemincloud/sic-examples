@@ -181,7 +181,7 @@
       <inputPort id="In2" parent="/1/@task.0"/>
       <inputPort id="In1" parent="/1/@task.0"/>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In" parent="/1/@task.1">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
