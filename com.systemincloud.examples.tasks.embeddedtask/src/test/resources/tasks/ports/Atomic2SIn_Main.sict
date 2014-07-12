@@ -205,9 +205,15 @@
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.2.0">
     <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.2.0" implementationTask="src/test/resources/tasks/ports/Atomic2SIn_Embedded.sict">
-      <outputPort id="Out" parent="/1/@task.0"/>
-      <inputPort id="In2" parent="/1/@task.0"/>
-      <inputPort id="In1" parent="/1/@task.0"/>
+      <outputPort id="Out" parent="/1/@task.0">
+        <dataType xsi:type="dt:Int32"/>
+      </outputPort>
+      <inputPort id="In2" parent="/1/@task.0">
+        <dataType xsi:type="dt:Int32"/>
+      </inputPort>
+      <inputPort id="In1" parent="/1/@task.0">
+        <dataType xsi:type="dt:Int32"/>
+      </inputPort>
     </task>
     <task xsi:type="constant_0_1_0:Constant" id="1" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.0" value="5">
       <outputPort id="Out" parent="/1/@task.1">
