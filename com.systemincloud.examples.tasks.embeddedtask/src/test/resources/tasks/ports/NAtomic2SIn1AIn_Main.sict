@@ -60,7 +60,7 @@
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="internal-port" value="true"/>
         <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="10" height="10" y="6" cornerHeight="5" cornerWidth="5">
-          <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="10" height="10" style="/0/@styles.1" cornerHeight="5" cornerWidth="5"/>
+          <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" lineStyle="DOT" transparency="0.0" width="10" height="10" style="/0/@styles.1" cornerHeight="5" cornerWidth="5"/>
         </graphicsAlgorithm>
         <link businessObjects="/1/@task.0/@inputPort.2 /0/@children.0/@children.7"/>
         <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="/0/@connections.0"/>
@@ -276,7 +276,7 @@
       <inputPort id="In2" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
-      <inputPort id="In1" parent="/1/@task.0">
+      <inputPort id="In1" parent="/1/@task.0" asynchronous="true">
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
