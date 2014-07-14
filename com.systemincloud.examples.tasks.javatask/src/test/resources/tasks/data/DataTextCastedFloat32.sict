@@ -164,6 +164,7 @@
       </outputPort>
       <inputPort id="In" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
+        <dataType xsi:type="dt:Control"/>
       </inputPort>
     </task>
     <connection xsi:type="sic:SimpleConnection" sourceRef="/1/@task.0/@outputPort.0" targetRef="/1/@task.2/@inputPort.0"/>
