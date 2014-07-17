@@ -145,8 +145,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.1">
-    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.1.0" implementationTask="src/test/resources/tasks/extsrc/ExtSrc_Embedded.sict">
+  <sic:MainTask initialized="true" version="0.2.0">
+    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.2.0" implementationTask="src/test/resources/tasks/extsrc/ExtSrc_Embedded.sict">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
@@ -154,13 +154,13 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.1.1" dimensions="1" interval="5s">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.0" dimensions="1" interval="5s">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

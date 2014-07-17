@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.systemincloud.examples.tasks</groupId>
   <artifactId>com.systemincloud.examples.tasks.console</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <packaging>jar</packaging>
   <name>System in Cloud - Examples - Console</name>
   <dependencies>
@@ -15,7 +15,7 @@
     <dependency>
       <groupId>com.systemincloud.modeler.tasks.javatask</groupId>
       <artifactId>com.systemincloud.modeler.tasks.javatask.api</artifactId>
-      <version>0.1.0</version>
+      <version>0.2.0</version>
     </dependency>
   </dependencies>
   <repositories>

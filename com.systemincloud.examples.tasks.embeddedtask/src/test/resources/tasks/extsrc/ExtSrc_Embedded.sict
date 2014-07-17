@@ -110,10 +110,10 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.1.1">
+  <sic:MainTask initialized="true" version="0.2.0">
     <inputPort id="In"/>
     <outputPort id="Out"/>
-    <task xsi:type="console_0_1_0:Console" id="My Console" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.0" consoleType="INOUT">
+    <task xsi:type="console_0_1_0:Console" id="My Console" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1" consoleType="INOUT">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
