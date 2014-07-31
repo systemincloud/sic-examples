@@ -268,13 +268,13 @@
       <outputPort id="y" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
-      <inputPort id="a" parent="/1/@task.0">
+      <inputPort id="a" parent="/1/@task.0" holdLast="true">
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
       <inputPort id="x" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
-      <inputPort id="b" parent="/1/@task.0">
+      <inputPort id="b" parent="/1/@task.0" holdLast="true">
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
