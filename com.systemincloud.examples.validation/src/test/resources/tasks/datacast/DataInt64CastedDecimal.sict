@@ -144,13 +144,13 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.1">
+  <sic:MainTask initialized="true" version="0.2.2">
     <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
       <inputPort id="In" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.0" implementationClass="tasks.datacast.DataInt64Casted">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.1" implementationClass="tasks.datacast.DataInt64Casted">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
