@@ -81,7 +81,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.1">
+  <sic:MainTask initialized="true" version="0.2.2">
     <task xsi:type="constant_0_1_0:Constant" id="Pan Tadeusz" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.0" value="Litwo! Ojczyzno moja! ty jesteś jak zdrowie.&#10;Ile cię trzeba cenić, ten tylko się dowie,&#10;Kto cię stracił. Dziś piękność twą w całej ozdobie&#10;Widzę i opisuję, bo tęsknię po tobie.">
       <outputPort id="Out">
         <dataType xsi:type="dt:Text"/>

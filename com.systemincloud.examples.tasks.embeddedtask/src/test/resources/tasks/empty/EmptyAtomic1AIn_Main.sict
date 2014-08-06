@@ -144,8 +144,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.1">
-    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.2.0" implementationTask="src/test/resources/tasks/empty/EmptyAtomic1AIn_Embedded.sict">
+  <sic:MainTask initialized="true" version="0.2.2">
+    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.2.1" implementationTask="src/test/resources/tasks/empty/EmptyAtomic1AIn_Embedded.sict">
       <outputPort id="Out"/>
       <inputPort id="In" asynchronous="true"/>
     </task>

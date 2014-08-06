@@ -208,8 +208,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.1">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="MUX" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.0" implementationClass="tasks.generator.GeneratorNAtomicWith2SIn">
+  <sic:MainTask initialized="true" version="0.2.2">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="MUX" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.1" implementationClass="tasks.generator.GeneratorNAtomicWith2SIn">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
