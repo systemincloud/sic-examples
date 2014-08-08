@@ -111,7 +111,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.2">
+  <sic:MainTask initialized="true" version="0.2.3">
     <inputPort id="In"/>
     <outputPort id="Out1"/>
     <outputPort id="Out2"/>

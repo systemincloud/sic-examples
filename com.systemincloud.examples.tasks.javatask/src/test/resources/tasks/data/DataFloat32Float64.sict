@@ -268,7 +268,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.2">
+  <sic:MainTask initialized="true" version="0.2.3">
     <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%u[0,5]" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.0" dimensions="1">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float64"/>
@@ -276,7 +276,7 @@
       <dataType xsi:type="dt:Float64"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,5]"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="MUX" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.1" implementationClass="tasks.data.DataFloat32Float64Mux">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="MUX" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.2" implementationClass="tasks.data.DataFloat32Float64Mux">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float32"/>
         <dataType xsi:type="dt:Float64"/>
@@ -293,7 +293,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="x2" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.1" implementationClass="tasks.data.DataFloat32Float64">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="x2" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.2" implementationClass="tasks.data.DataFloat32Float64">
       <outputPort id="Out" parent="/1/@task.3">
         <dataType xsi:type="dt:Float32"/>
         <dataType xsi:type="dt:Float64"/>
