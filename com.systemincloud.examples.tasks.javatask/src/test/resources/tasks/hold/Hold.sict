@@ -287,8 +287,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.2">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Sum" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.1" implementationClass="tasks.hold.Hold">
+  <sic:MainTask initialized="true" version="0.2.3">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Sum" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.2" implementationClass="tasks.hold.Hold">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
@@ -299,7 +299,7 @@
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Delay" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.1" implementationClass="tasks.hold.Delay">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Delay" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.2" implementationClass="tasks.hold.Delay">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

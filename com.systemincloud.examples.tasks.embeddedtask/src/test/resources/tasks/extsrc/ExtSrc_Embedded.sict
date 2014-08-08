@@ -109,7 +109,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.2">
+  <sic:MainTask initialized="true" version="0.2.3">
     <inputPort id="In"/>
     <outputPort id="Out"/>
     <task xsi:type="console_0_1_0:Console" id="My Console" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1" consoleType="INOUT">

@@ -84,8 +84,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.2">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Hellow World" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.1" implementationClass="tasks.constant.Constant1">
+  <sic:MainTask initialized="true" version="0.2.3">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Hellow World" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.2" implementationClass="tasks.constant.Constant1">
       <outputPort id="Out">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
