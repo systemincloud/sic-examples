@@ -154,7 +154,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.2.3">
+  <sic:MainTask initialized="true" version="0.3.0">
     <inputPort id="In2" asynchronous="true"/>
     <inputPort id="In1" asynchronous="true"/>
     <outputPort id="Out"/>
