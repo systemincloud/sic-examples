@@ -7,21 +7,10 @@
   <packaging>jar</packaging>
   <name>System in Cloud - Example</name>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-    </dependency>
-    <dependency>
-      <groupId>com.systemincloud.modeler.tasks.javatask</groupId>
-      <artifactId>com.systemincloud.modeler.tasks.javatask.api</artifactId>
-      <version>0.2.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.systemincloud.ext.vip.modeler.tasks.javatask</groupId>
-      <artifactId>com.systemincloud.ext.vip.modeler.tasks.javatask.api</artifactId>
-      <version>0.1.0</version>
-    </dependency>
+    <dependency><groupId>junit</groupId>                                       <artifactId>junit</artifactId>                                       <version>4.11</version><scope>test</scope></dependency>
+    <dependency><groupId>com.systemincloud.modeler.tasks.javatask</groupId>    <artifactId>com.systemincloud.modeler.tasks.javatask.api</artifactId><version>0.2.0</version></dependency>
+    <dependency><groupId>com.googlecode.efficient-java-matrix-library</groupId><artifactId>core</artifactId>                                        <version>0.26</version> </dependency>
+    <dependency><groupId>com.googlecode.efficient-java-matrix-library</groupId><artifactId>equation</artifactId>                                    <version>0.26</version> </dependency>
   </dependencies>
   <repositories>
     <repository>
@@ -31,14 +20,8 @@
   </repositories>
   <build>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.2</version>
-        <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
-        </configuration>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>2.3.2</version>
+        <configuration><source>1.7</source><target>1.7</target></configuration>
       </plugin>
     </plugins>
   </build>
