@@ -13,7 +13,7 @@ import com.systemincloud.modeler.tasks.javatask.api.data.Bool;
 @JavaTaskInfo
 public class Atomic2Sin1AIn extends JavaTask {
 
-	@InputPortInfo(name = "In1", dataType = Control.class, asynchronus = true)
+	@InputPortInfo(name = "In1", dataType = Control.class, asynchronous = true)
 	public InputPort in1;
 	@InputPortInfo(name = "In2", dataType = Int32.class)
 	public InputPort in2;

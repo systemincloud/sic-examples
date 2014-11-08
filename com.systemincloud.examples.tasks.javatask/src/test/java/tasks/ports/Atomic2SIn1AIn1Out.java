@@ -15,7 +15,7 @@ public class Atomic2SIn1AIn1Out extends JavaTask {
 	public InputPort in1;
 	@InputPortInfo(name = "In2", dataType = Text.class)
 	public InputPort in2;
-	@InputPortInfo(name = "In3", dataType = Text.class, asynchronus = true)
+	@InputPortInfo(name = "In3", dataType = Text.class, asynchronous = true)
 	public InputPort in3;
 	@OutputPortInfo(name = "Out", dataType = Text.class)
 	public OutputPort out;

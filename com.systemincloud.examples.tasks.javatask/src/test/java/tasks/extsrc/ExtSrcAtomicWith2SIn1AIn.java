@@ -29,7 +29,7 @@ public class ExtSrcAtomicWith2SIn1AIn extends JavaTask {
 	public InputPort in1;
 	@InputPortInfo(name = "In2", dataType = Int32.class)
 	public InputPort in2;
-	@InputPortInfo(name = "In3", dataType = Int32.class, asynchronus = true)
+	@InputPortInfo(name = "In3", dataType = Int32.class, asynchronous = true)
 	public InputPort in3;
 	@OutputPortInfo(name = "Out", dataType = Text.class)
 	public OutputPort out;
