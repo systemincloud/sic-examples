@@ -84,13 +84,13 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.3.0">
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
+  <sic:MainTask initialized="true" version="0.4.0">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.2">
       <inputPort id="In" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%u[0,5] * e^(%u[0,6.28])" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.0" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%u[0,5] * e^(%u[0,6.28])" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.1" dimensions="1">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Complex64"/>
       </outputPort>

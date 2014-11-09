@@ -14,7 +14,7 @@ public class Demux extends JavaTask {
 
 	@InputPortInfo(name = "In", dataType = Int32.class)
 	public InputPort in;
-	@InputPortInfo(name = "Ctrl", dataType = Control.class, asynchronus = true)
+	@InputPortInfo(name = "Ctrl", dataType = Control.class, asynchronous = true)
 	public InputPort ctrl;
 	@OutputPortInfo(name = "Out1", dataType = Int32.class)
 	public OutputPort out1;

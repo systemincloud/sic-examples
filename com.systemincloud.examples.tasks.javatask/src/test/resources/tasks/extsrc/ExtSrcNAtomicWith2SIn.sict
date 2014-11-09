@@ -208,22 +208,22 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.3.0">
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="2s" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.0" dimensions="1" interval="2s">
+  <sic:MainTask initialized="true" version="0.4.0">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="2s" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.1" dimensions="1" interval="2s">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,5]"/>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s" generator="true" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.0" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.1" dimensions="1">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[6,10]"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="External data 3s" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.2" implementationClass="tasks.extsrc.ExtSrcNAtomicWith2SIn">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="External data 3s" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.3" implementationClass="tasks.extsrc.ExtSrcNAtomicWith2SIn">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
@@ -234,7 +234,7 @@
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.1">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.2">
       <inputPort id="In" parent="/1/@task.3">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

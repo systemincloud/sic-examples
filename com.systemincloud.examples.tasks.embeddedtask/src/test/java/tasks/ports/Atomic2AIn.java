@@ -11,9 +11,9 @@ import com.systemincloud.modeler.tasks.javatask.api.data.Text;
 @JavaTaskInfo
 public class Atomic2AIn extends JavaTask {
 
-	@InputPortInfo(name = "In1", dataType = Text.class, asynchronus = true)
+	@InputPortInfo(name = "In1", dataType = Text.class, asynchronous = true)
 	public InputPort in1;
-	@InputPortInfo(name = "In2", dataType = Text.class, asynchronus = true)
+	@InputPortInfo(name = "In2", dataType = Text.class, asynchronous = true)
 	public InputPort in2;
 	@OutputPortInfo(name = "Out", dataType = Text.class)
 	public OutputPort out;

@@ -16,7 +16,7 @@ public class GeneratorAtomicWith2SIn1AIn extends JavaTask {
 	public InputPort in1;
 	@InputPortInfo(name = "In2", dataType = Int32.class)
 	public InputPort in2;
-	@InputPortInfo(name = "In3", dataType = Control.class, asynchronus = true)
+	@InputPortInfo(name = "In3", dataType = Control.class, asynchronous = true)
 	public InputPort in3;
 	@OutputPortInfo(name = "Out", dataType = Int32.class)
 	public OutputPort out;

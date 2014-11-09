@@ -16,7 +16,7 @@ public class AddOrMultiplication extends JavaTask {
 	public InputPort in1;
 	@InputPortInfo(name = "In2", dataType = Int32.class)
 	public InputPort in2;
-	@InputPortInfo(name = "Ctrl", dataType = Control.class, asynchronus = true)
+	@InputPortInfo(name = "Ctrl", dataType = Control.class, asynchronous = true)
 	public InputPort ctrl;
 	@OutputPortInfo(name = "Out", dataType = Int32.class)
 	public OutputPort out;
