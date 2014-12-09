@@ -8,10 +8,12 @@ import com.systemincloud.modeler.tasks.javatask.api.annotations.JavaTaskInfo;
 import com.systemincloud.modeler.tasks.javatask.api.annotations.OutputPortInfo;
 import com.systemincloud.modeler.tasks.javatask.api.annotations.SicParameters;
 import com.systemincloud.modeler.tasks.javatask.api.data.Int32;
+import com.systemincloud.modeler.tasks.javatask.api.annotations.SicParameter;
 
 @JavaTaskInfo
-@SicParameters(names = { Parameters.N })
-public class Parameters extends JavaTask {
+@SicParameters({
+	@SicParameter(name=Parameters.N)
+}) public class Parameters extends JavaTask {
 
 	protected static final String N = "N";
 
@@ -21,12 +23,12 @@ public class Parameters extends JavaTask {
 	public OutputPort out;
 
 	private int n;
-	
+
 	@Override
 	public void runnerStart() {
 		this.n = Integer.parseInt(getParameter(N));
 	};
-	
+
 	@Override
 	public void execute() {
 		out.putData(new Int32(in.getData(Int32.class).getValue()*n));

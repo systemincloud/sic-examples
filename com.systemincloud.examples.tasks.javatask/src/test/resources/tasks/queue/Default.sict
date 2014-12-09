@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:console_0_1_0="http://modeler.systemincloud.com/tasks/console/0_1_0" xmlns:dt="http://systemincloud.com/dt" xmlns:javatask_0_1_0="http://modeler.systemincloud.com/tasks/javatask/0_1_0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:sic="http://systemincloud.com/sic">
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:console_0_1_0="http://modeler.systemincloud.com/tasks/console/0_1_0" xmlns:dt="http://systemincloud.com/dt" xmlns:javatask_0_1_0="http://modeler.systemincloud.com/tasks/javatask/0_1_0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:sic="http://systemincloud.com/sic" xmi:version="2.0">
   <pi:Diagram visible="true" gridUnit="-1" diagramTypeId="SystemInCloud" name="Default" pictogramLinks="/0/@link /0/@connections.0/@link /0/@connections.1/@link /0/@connections.2/@link" version="0.11.0">
     <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
     <link businessObjects="/1"/>
@@ -225,8 +224,8 @@
     <colors red="255" green="255" blue="255"/>
     <colors/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.4.0">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Generator" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.3" implementationClass="tasks.queue.Generator">
+  <sic:MainTask initialized="true" version="0.4.1">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Generator" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.4" implementationClass="tasks.queue.Generator">
       <outputPort id="Out1" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
@@ -239,7 +238,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Sum" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.3" implementationClass="tasks.queue.Default">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Sum" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.4" implementationClass="tasks.queue.Default">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

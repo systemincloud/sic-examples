@@ -144,7 +144,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.4.0">
+  <sic:MainTask initialized="true" version="0.4.1">
     <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="Control" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.1" dimensions="1">
       <outputPort id="Out">
         <dataType xsi:type="dt:Control"/>
@@ -152,7 +152,7 @@
       <dataType xsi:type="dt:Control"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,1]"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Propagate" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.3" implementationClass="tasks.data.DataControl">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Propagate" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.4" implementationClass="tasks.data.DataControl">
       <outputPort id="Out">
         <dataType xsi:type="dt:Control"/>
       </outputPort>
