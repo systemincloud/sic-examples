@@ -208,7 +208,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.4.0">
+  <sic:MainTask initialized="true" version="0.4.1">
     <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="2s" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.1" dimensions="1" interval="2s">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
@@ -223,7 +223,7 @@
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[6,10]"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="External data 3s" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.3" implementationClass="tasks.extsrc.ExtSrcNAtomicWith2SIn">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="External data 3s" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.4" implementationClass="tasks.extsrc.ExtSrcNAtomicWith2SIn">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
