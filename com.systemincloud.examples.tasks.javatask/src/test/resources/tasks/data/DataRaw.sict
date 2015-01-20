@@ -5,5 +5,5 @@
     <colors red="227" green="238" blue="249"/>
     <colors red="255" green="255" blue="255"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.4.1"/>
+  <sic:MainTask initialized="true" version="0.4.2"/>
 </xmi:XMI>
