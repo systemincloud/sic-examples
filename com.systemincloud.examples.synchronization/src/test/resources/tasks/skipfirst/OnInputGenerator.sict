@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:console_0_1_0="http://modeler.systemincloud.com/tasks/console/0_1_0" xmlns:dt="http://systemincloud.com/dt" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:randomgenerator_0_1_0="http://modeler.systemincloud.com/tasks/randomgenerator/0_1_0" xmlns:sic="http://systemincloud.com/sic" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:console_0_1_0="http://modeler.systemincloud.com/tasks/console/0_1_0" xmlns:dt="http://systemincloud.com/dt" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:randomgenerator_0_1_0="http://modeler.systemincloud.com/tasks/randomgenerator/0_1_0" xmlns:sic="http://systemincloud.com/sic">
   <pi:Diagram visible="true" gridUnit="-1" diagramTypeId="SystemInCloud" name="OnInputGenerator" pictogramLinks="/0/@link /0/@children.0/@link /0/@children.1/@link /0/@children.0/@children.0/@link /0/@children.0/@children.1/@link /0/@children.2/@link /0/@children.3/@link /0/@children.2/@children.0/@link /0/@children.2/@children.1/@link /0/@connections.0/@link" version="0.11.0">
     <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
     <link businessObjects="/1"/>
@@ -86,8 +87,9 @@
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.4.2">
     <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.1" dimensions="1" interval="2ms">
-      <outputPort id="Out" parent="/1/@task.0" waitFor="/1/@task.1/@inputPort.0" skipFirst="1">
+      <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
+        <synchronization waitForPort="/1/@task.1/@inputPort.0" skipFirst="1" loop="true" parent="/1/@task.0/@outputPort.0"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,10]"/>
