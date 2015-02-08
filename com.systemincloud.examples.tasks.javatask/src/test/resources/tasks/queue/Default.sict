@@ -180,7 +180,7 @@
       </graphicsAlgorithm>
       <link businessObjects="/1/@task.2 /0/@children.4"/>
     </children>
-    <styles background="/0/@colors.2" foreground="/0/@colors.2" lineWidth="1" id="BPMN-POLYGON-ARROW"/>
+    <styles background="/0/@colors.2" foreground="/0/@colors.2" lineWidth="1" id="POLYGON-ARROW"/>
     <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.0/@children.2/@anchors.0" end="/0/@children.4/@children.2/@anchors.0">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.2" lineWidth="1" filled="false" transparency="0.0"/>
       <link businessObjects="/1/@connection.0"/>
@@ -224,7 +224,7 @@
     <colors red="255" green="255" blue="255"/>
     <colors/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.4.1">
+  <sic:MainTask initialized="true" version="0.4.2">
     <task xsi:type="javatask_0_1_0:JavaTask" id="Generator" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.4" implementationClass="tasks.queue.Generator">
       <outputPort id="Out1" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>

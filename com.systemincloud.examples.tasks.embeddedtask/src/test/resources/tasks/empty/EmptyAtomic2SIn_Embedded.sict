@@ -59,7 +59,7 @@
       <link businessObjects="/1/@outputPort.1 /0/@children.6"/>
     </children>
     <styles background="/0/@colors.1" foreground="/0/@colors.2" id="PORT"/>
-    <styles background="/0/@colors.2" foreground="/0/@colors.2" lineWidth="1" id="BPMN-POLYGON-ARROW"/>
+    <styles background="/0/@colors.2" foreground="/0/@colors.2" lineWidth="1" id="POLYGON-ARROW"/>
     <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.0/@anchors.0" end="/0/@children.4/@anchors.0">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.2" lineWidth="1" filled="false" transparency="0.0"/>
       <link businessObjects="/1/@connection.0"/>
@@ -91,7 +91,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.4.1">
+  <sic:MainTask initialized="true" version="0.4.2">
     <inputPort id="In1"/>
     <inputPort id="In2"/>
     <outputPort id="Out1"/>

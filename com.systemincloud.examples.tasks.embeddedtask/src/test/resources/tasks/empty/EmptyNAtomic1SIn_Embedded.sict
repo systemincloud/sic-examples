@@ -32,7 +32,7 @@
     </children>
     <styles background="/0/@colors.1" foreground="/0/@colors.2" id="TASK"/>
     <styles background="/0/@colors.1" foreground="/0/@colors.2" id="PORT"/>
-    <styles background="/0/@colors.2" foreground="/0/@colors.2" lineWidth="1" id="BPMN-POLYGON-ARROW"/>
+    <styles background="/0/@colors.2" foreground="/0/@colors.2" lineWidth="1" id="POLYGON-ARROW"/>
     <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.0/@anchors.0" end="/0/@children.2/@anchors.0">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.2" lineWidth="1" filled="false" transparency="0.0"/>
       <link businessObjects="/1/@connection.0"/>
@@ -51,7 +51,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask atomic="false" initialized="true" version="0.4.1">
+  <sic:MainTask atomic="false" initialized="true" version="0.4.2">
     <inputPort id="In"/>
     <outputPort id="Out"/>
     <connection xsi:type="sic:SimpleConnection" sourceRef="/1/@inputPort.0" targetRef="/1/@outputPort.0"/>
