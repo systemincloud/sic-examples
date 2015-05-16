@@ -200,7 +200,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.5.0">
+  <sic:MainTask initialized="true" version="0.5.1">
     <task xsi:type="and_0_1_0:And" id="My And" bundleName="com.systemincloud.modeler.tasks.gate.and" version="0.1.1">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Bool"/>

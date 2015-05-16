@@ -224,7 +224,7 @@
     <colors red="255" green="255" blue="255"/>
     <colors/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.5.0">
+  <sic:MainTask initialized="true" version="0.5.1">
     <task xsi:type="javatask_0_1_0:JavaTask" id="Generator" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.5" implementationClass="tasks.queue.Generator">
       <outputPort id="Out1" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
