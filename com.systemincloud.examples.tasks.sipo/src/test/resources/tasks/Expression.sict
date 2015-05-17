@@ -173,7 +173,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.5.1">
+  <sic:MainTask initialized="true" version="0.5.2">
     <task xsi:type="sipo_0_1_0:Sipo" id="My Sipo" bundleName="com.systemincloud.modeler.tasks.sipo" version="0.1.1" index="true" sizeOut="true">
       <outputPort id="Out" parent="/1/@task.0"/>
       <outputPort id="N" parent="/1/@task.0">
