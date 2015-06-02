@@ -224,8 +224,8 @@
     <colors red="255" green="255" blue="255"/>
     <colors/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.5.2">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Generator" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.5" implementationClass="tasks.queue.Generator">
+  <sic:MainTask initialized="true" version="0.5.3">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Generator" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.6" implementationClass="tasks.queue.Generator">
       <outputPort id="Out1" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
@@ -233,12 +233,12 @@
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.3">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.4">
       <inputPort id="In" parent="/1/@task.1">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Sum" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.5" implementationClass="tasks.queue.Default">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Sum" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.6" implementationClass="tasks.queue.Default">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

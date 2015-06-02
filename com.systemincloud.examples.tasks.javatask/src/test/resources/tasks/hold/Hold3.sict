@@ -262,8 +262,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.5.2">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="y = ax + b" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.5" implementationClass="tasks.hold.Hold3">
+  <sic:MainTask initialized="true" version="0.5.3">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="y = ax + b" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.2.6" implementationClass="tasks.hold.Hold3">
       <outputPort id="y" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
@@ -277,26 +277,26 @@
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
-    <task xsi:type="constant_0_1_0:Constant" id="b" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.2" value="3">
+    <task xsi:type="constant_0_1_0:Constant" id="b" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.3" value="3">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
     </task>
-    <task xsi:type="constant_0_1_0:Constant" id="a" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.2" value="2">
+    <task xsi:type="constant_0_1_0:Constant" id="a" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.3" value="2">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="x" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.2" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="x" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.3" dimensions="1">
       <outputPort id="Out" parent="/1/@task.3">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,5]"/>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.3">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.4">
       <inputPort id="In" parent="/1/@task.4">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
