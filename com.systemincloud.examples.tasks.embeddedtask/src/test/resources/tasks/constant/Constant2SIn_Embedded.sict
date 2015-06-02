@@ -95,11 +95,11 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.5.2">
+  <sic:MainTask initialized="true" version="0.5.3">
     <inputPort id="In2"/>
     <inputPort id="In1"/>
     <outputPort id="Out"/>
-    <task xsi:type="constant_0_1_0:Constant" id="My Constant" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.2" value="Hello">
+    <task xsi:type="constant_0_1_0:Constant" id="My Constant" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.3" value="Hello">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </outputPort>

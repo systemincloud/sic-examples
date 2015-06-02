@@ -81,14 +81,14 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.5.2">
-    <task xsi:type="constant_0_1_0:Constant" id="Pan Tadeusz" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.2" value="Litwo! Ojczyzno moja! ty jesteś jak zdrowie.&#xA;Ile cię trzeba cenić, ten tylko się dowie,&#xA;Kto cię stracił. Dziś piękność twą w całej ozdobie&#xA;Widzę i opisuję, bo tęsknię po tobie.">
+  <sic:MainTask initialized="true" version="0.5.3">
+    <task xsi:type="constant_0_1_0:Constant" id="Pan Tadeusz" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.3" value="Litwo! Ojczyzno moja! ty jesteś jak zdrowie.&#xA;Ile cię trzeba cenić, ten tylko się dowie,&#xA;Kto cię stracił. Dziś piękność twą w całej ozdobie&#xA;Widzę i opisuję, bo tęsknię po tobie.">
       <outputPort id="Out">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
       <dataType xsi:type="dt:Text"/>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.3">
+    <task xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.4">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
