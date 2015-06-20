@@ -157,7 +157,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.skipfirst.MultipleSkip">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.skipfirst.MultipleSkip">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Bool"/>
         <synchronization waitForPort="/1/@task.1/@inputPort.0" skipFirst="1" loop="true" parent="/1/@task.2/@outputPort.0"/>

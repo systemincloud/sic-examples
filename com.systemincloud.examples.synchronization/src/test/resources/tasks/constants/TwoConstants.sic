@@ -217,7 +217,7 @@
       </outputPort>
       <dataType xsi:type="dt:Bool"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.constants.TwoConstants">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.constants.TwoConstants">
       <outputPort id="Out" parent="/1/@task.3">
         <dataType xsi:type="dt:Bool"/>
       </outputPort>
