@@ -81,13 +81,13 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.6.1">
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="My Console" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.5">
+  <sic:MainTask initialized="true" version="0.7.0">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="My Console" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6">
       <inputPort id="In" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="constant_0_1_0:Constant" id="My Constant" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.4" value="0.3333333333333333333333i">
+    <task xsi:type="constant_0_1_0:Constant" id="My Constant" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.5" value="0.3333333333333333333333i">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Complex64"/>
       </outputPort>

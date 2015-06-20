@@ -198,26 +198,26 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.6.1">
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.5">
+  <sic:MainTask initialized="true" version="0.7.0">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6">
       <inputPort id="In" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="constant_0_1_0:Constant" id="False" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.4" value="false">
+    <task xsi:type="constant_0_1_0:Constant" id="False" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.5" value="false">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Bool"/>
       </outputPort>
       <dataType xsi:type="dt:Bool"/>
     </task>
-    <task xsi:type="constant_0_1_0:Constant" id="True" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.4" value="true">
+    <task xsi:type="constant_0_1_0:Constant" id="True" bundleName="com.systemincloud.modeler.tasks.constant" version="0.2.5" value="true">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Bool"/>
         <synchronization waitForPort="/1/@task.3/@inputPort.1" parent="/1/@task.2/@outputPort.0"/>
       </outputPort>
       <dataType xsi:type="dt:Bool"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.0" implementationClass="tasks.constants.TwoConstants">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.constants.TwoConstants">
       <outputPort id="Out" parent="/1/@task.3">
         <dataType xsi:type="dt:Bool"/>
       </outputPort>

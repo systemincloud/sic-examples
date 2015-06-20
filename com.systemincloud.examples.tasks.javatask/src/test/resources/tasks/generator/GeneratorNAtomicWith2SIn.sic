@@ -208,8 +208,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.6.1">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="MUX" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.0" implementationClass="tasks.generator.GeneratorNAtomicWith2SIn">
+  <sic:MainTask initialized="true" version="0.7.0">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="MUX" atomic="false" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.generator.GeneratorNAtomicWith2SIn">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
@@ -220,19 +220,19 @@
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.5">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.4" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.5" dimensions="1">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,3]"/>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s " bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.4" dimensions="1" interval="2s">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="1s " bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.5" dimensions="1" interval="2s">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
