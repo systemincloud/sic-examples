@@ -263,7 +263,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.7.0">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="y = ax + b" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.hold.Hold3">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="y = ax + b" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.hold.Hold3">
       <outputPort id="y" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

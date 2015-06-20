@@ -361,7 +361,7 @@
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%n[0,5]"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.ports.Atomic2SIn2AIn1Out">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.ports.Atomic2SIn2AIn1Out">
       <outputPort id="Out" parent="/1/@task.4">
         <dataType xsi:type="dt:Text"/>
       </outputPort>

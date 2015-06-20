@@ -209,7 +209,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="+5" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.data.DataInt32">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="+5" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.data.DataInt32">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

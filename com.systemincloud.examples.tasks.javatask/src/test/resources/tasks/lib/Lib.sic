@@ -160,7 +160,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.lib.Lib">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.lib.Lib">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </outputPort>

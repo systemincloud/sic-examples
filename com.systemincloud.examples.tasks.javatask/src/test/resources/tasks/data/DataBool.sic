@@ -319,7 +319,7 @@
       <dataType xsi:type="dt:Bool"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,1]"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="And" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.data.DataBool">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="And" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.data.DataBool">
       <outputPort id="Out">
         <dataType xsi:type="dt:Bool"/>
       </outputPort>

@@ -152,7 +152,7 @@
       <dataType xsi:type="dt:Control"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,1]"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Propagate" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.data.DataControl">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Propagate" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.data.DataControl">
       <outputPort id="Out">
         <dataType xsi:type="dt:Control"/>
       </outputPort>

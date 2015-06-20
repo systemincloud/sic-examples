@@ -229,7 +229,7 @@
       <specific key="TEXT_CASE" value="ANY"/>
       <specific key="TEXT_LENGTH" value="5"/>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.ports.Atomic2SIn0AIn1Out">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.ports.Atomic2SIn0AIn1Out">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Bool"/>
       </outputPort>

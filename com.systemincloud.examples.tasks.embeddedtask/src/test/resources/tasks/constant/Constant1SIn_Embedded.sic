@@ -115,7 +115,7 @@
   <sic:MainTask initialized="true" version="0.7.0">
     <inputPort id="In"/>
     <outputPort id="Out"/>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" onlyLocal="true" implementationClass="tasks.constant.Constant1SIn">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" onlyLocal="true" implementationClass="tasks.constant.Constant1SIn">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

@@ -158,7 +158,7 @@
     <inputPort id="In2"/>
     <inputPort id="In1"/>
     <outputPort id="Out"/>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Add" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.1" implementationClass="tasks.ports.Atomic2SIn">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Add" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.ports.Atomic2SIn">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

@@ -258,7 +258,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.7.0">
-    <task xsi:type="demux_0_1_0:Demux" id="My Demux" bundleName="com.systemincloud.modeler.tasks.demux" version="0.1.4">
+    <task xsi:type="demux_0_1_0:Demux" id="My Demux" bundleName="com.systemincloud.modeler.tasks.demux" version="0.2.0">
       <outputPort id="Out 0" parent="/1/@task.0"/>
       <outputPort id="Out 1" parent="/1/@task.0"/>
       <inputPort id="In" parent="/1/@task.0" asynchronous="true"/>

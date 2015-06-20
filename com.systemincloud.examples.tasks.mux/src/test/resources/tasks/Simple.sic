@@ -267,7 +267,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.7.0">
-    <task xsi:type="mux_0_1_0:Mux" id="My Mux" bundleName="com.systemincloud.modeler.tasks.mux" version="0.1.4">
+    <task xsi:type="mux_0_1_0:Mux" id="My Mux" bundleName="com.systemincloud.modeler.tasks.mux" version="0.2.0">
       <outputPort id="Out" parent="/1/@task.0"/>
       <inputPort id="Idx" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
