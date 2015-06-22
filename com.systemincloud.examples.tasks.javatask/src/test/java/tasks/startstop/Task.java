@@ -17,7 +17,7 @@ public class Task extends JavaTask {
 	}
 	
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		System.out.println("Task run");
 	}
 

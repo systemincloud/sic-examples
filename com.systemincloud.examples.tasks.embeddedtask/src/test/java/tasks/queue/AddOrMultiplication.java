@@ -29,7 +29,7 @@ public class AddOrMultiplication extends JavaTask {
 	}
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		if(isAdd) out.putData(new Int32(in1.getData(Int32.class).getValue() + in2.getData(Int32.class).getValue()));
 		else      out.putData(new Int32(in1.getData(Int32.class).getValue() * in2.getData(Int32.class).getValue()));
 	}

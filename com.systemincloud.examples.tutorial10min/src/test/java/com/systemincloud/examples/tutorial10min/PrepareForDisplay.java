@@ -20,7 +20,7 @@ public class PrepareForDisplay extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		int[] xValues = x.getData(Int32.class).getValues();
 		int[] yValues = y.getData(Int32.class).getValues();
 		

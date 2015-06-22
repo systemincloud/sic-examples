@@ -20,7 +20,7 @@ public class MultipleSkip extends JavaTask {
 	boolean a;
 	
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		if(flag) out.putData(new Bool(a && in.getData(Bool.class).getValue()));
 		else a = in.getData(Bool.class).getValue();
 		flag = !flag;

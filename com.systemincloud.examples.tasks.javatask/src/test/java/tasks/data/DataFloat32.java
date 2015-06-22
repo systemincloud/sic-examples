@@ -17,7 +17,7 @@ public class DataFloat32 extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Float32 inFloat32 = in.getData(Float32.class);
 		out.putData(new Float32(inFloat32.getValue()*2));
 	}

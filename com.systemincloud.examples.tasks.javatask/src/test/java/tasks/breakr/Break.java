@@ -13,7 +13,7 @@ public class Break extends JavaTask {
 	public InputPort in;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		int i = in.getData(Int32.class).getValue();
 		if(i == 3) super.exitRunner();
 	}

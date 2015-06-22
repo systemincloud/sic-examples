@@ -47,7 +47,7 @@ public class DataFloat32Float64 extends JavaTask {
 	}
 	
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Data data = in.getData(Data.class);
 		     if(data instanceof Float32) new Float32Strategy((Float32) data).execute();
 		else if(data instanceof Float64) new Float64Strategy((Float64) data).execute();

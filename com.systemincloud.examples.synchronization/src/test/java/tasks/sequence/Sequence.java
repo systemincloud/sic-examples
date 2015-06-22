@@ -21,7 +21,7 @@ public class Sequence extends JavaTask {
 	boolean flag = true;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		int inValue = in.getData(Int32.class).getValue();
 		if(flag) value.putData(new Int32(inValue));
 		else     power.putData(new Int32(inValue*inValue));

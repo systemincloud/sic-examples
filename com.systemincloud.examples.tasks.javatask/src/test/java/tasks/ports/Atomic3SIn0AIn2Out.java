@@ -26,7 +26,7 @@ public class Atomic3SIn0AIn2Out extends JavaTask {
 	public OutputPort out2;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Float64 in1Text = in1.getData(Float64.class);
 		Float32 in2Text = in2.getData(Float32.class);
 		Int32 in3Text = in3.getData(Int32.class);

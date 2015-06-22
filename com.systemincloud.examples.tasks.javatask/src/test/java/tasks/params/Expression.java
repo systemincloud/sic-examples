@@ -30,7 +30,7 @@ import com.systemincloud.modeler.tasks.javatask.api.annotations.SicParameter;
 	};
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		out.putData(new Int32(in.getData(Int32.class).getValue()*n));
 	}
 

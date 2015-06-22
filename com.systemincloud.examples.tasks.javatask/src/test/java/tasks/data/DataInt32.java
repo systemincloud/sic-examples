@@ -17,7 +17,7 @@ public class DataInt32 extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Int32 inInt32 = in.getData(Int32.class);
 		out.putData(new Int32(inInt32.getValue() + 5));
 	}

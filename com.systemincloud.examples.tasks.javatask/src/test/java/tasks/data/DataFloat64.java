@@ -17,7 +17,7 @@ public class DataFloat64 extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Float64 inFloat64 = in.getData(Float64.class);
 		out.putData(new Float64(inFloat64.getValue()/2));
 	}

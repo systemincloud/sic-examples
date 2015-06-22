@@ -19,7 +19,7 @@ public class Lib extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		String inString = in.getData(Text.class).getValue();
 		out.putData(new Text(StringUtils.repeat(inString, 3)));
 	}

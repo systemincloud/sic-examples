@@ -17,7 +17,7 @@ public class MutlipleTicks extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		boolean inValue = in.getData(Bool.class).getValue();
 		out.putData(new Bool(inValue));
 		out.putData(new Bool(!inValue));

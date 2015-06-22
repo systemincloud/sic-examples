@@ -17,7 +17,7 @@ public class DataInt64 extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Int64 inInt64 = in.getData(Int64.class);
 		out.putData(new Int64(inInt64.getValue()*2));
 	}

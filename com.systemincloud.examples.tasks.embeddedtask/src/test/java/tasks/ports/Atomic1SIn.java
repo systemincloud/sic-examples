@@ -17,7 +17,7 @@ public class Atomic1SIn extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		out.putData(new Bool(!in.getData(Bool.class).getValue()));
 	}
 

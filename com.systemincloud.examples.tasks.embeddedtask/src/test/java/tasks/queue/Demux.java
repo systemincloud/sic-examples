@@ -29,7 +29,7 @@ public class Demux extends JavaTask {
 	}
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		if(side) out1.putData(in.getData(Int32.class));
 		else     out2.putData(in.getData(Int32.class));
 	}

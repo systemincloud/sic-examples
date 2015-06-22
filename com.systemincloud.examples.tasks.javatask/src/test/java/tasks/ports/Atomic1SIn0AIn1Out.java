@@ -17,7 +17,7 @@ public class Atomic1SIn0AIn1Out extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Text inText = in.getData(Text.class);
 		out.putData(new Text("Received " + inText.getValue()));
 	}

@@ -17,7 +17,7 @@ public class DataInt64Dims extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Int64 inInt64 = in.getData(Int64.class);
 		long[] inint64 = inInt64.getValues();
 		long[] outint = new long[inInt64.getNumberOfElements()];

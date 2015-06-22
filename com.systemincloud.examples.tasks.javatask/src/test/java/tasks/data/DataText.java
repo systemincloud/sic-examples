@@ -17,7 +17,7 @@ public class DataText extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Text inText = in.getData(Text.class);
 		out.putData(new Text("Generated " + inText.getValue()));
 	}

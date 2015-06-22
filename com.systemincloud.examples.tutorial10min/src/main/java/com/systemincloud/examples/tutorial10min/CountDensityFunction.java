@@ -31,7 +31,7 @@ public class CountDensityFunction extends JavaTask {
 	private TreeMap<Integer, Integer> incidence = new TreeMap<>();
 	
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		int i = in.getData(Int32.class).getValue();
 		queue.add(i);
 		Integer n_i = incidence.get(i);

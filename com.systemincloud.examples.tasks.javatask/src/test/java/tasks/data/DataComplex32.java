@@ -20,7 +20,7 @@ public class DataComplex32 extends JavaTask {
 	public OutputPort out;
 	
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Complex32 data1 = in1.getData(Complex32.class);
 		Complex32 data2 = in2.getData(Complex32.class);
 		out.putData(new Complex32(data1.getRealValue() + data2.getRealValue(), 
