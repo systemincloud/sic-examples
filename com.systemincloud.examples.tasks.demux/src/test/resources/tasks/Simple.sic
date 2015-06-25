@@ -11,7 +11,7 @@
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="internal-port" value="true"/>
         <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="10" height="10" y="22" cornerHeight="5" cornerWidth="5">
-          <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" lineStyle="DOT" transparency="0.0" width="10" height="10" style="/0/@styles.1" cornerHeight="5" cornerWidth="5"/>
+          <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" lineStyle="SOLID" transparency="0.0" width="10" height="10" style="/0/@styles.1" cornerHeight="5" cornerWidth="5"/>
         </graphicsAlgorithm>
         <link businessObjects="/1/@task.0/@inputPort.0 /0/@children.0/@children.1"/>
         <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="/0/@connections.2"/>
@@ -263,8 +263,8 @@
     <task xsi:type="demux_0_1_0:Demux" id="My Demux" bundleName="com.systemincloud.modeler.tasks.demux" version="0.2.0">
       <outputPort id="Out 0" parent="/1/@task.0"/>
       <outputPort id="Out 1" parent="/1/@task.0"/>
-      <inputPort id="In" parent="/1/@task.0" asynchronous="true"/>
-      <inputPort id="Idx" parent="/1/@task.0">
+      <inputPort group="1" id="In" parent="/1/@task.0"/>
+      <inputPort group="0" id="Idx" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
