@@ -20,7 +20,7 @@ public class DataComplex64 extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Complex64 data1 = in1.getData(Complex64.class);
 		Complex64 data2 = in2.getData(Complex64.class);
 		out.putData(new Complex64(data1.getRealValue() - data2.getRealValue(), 

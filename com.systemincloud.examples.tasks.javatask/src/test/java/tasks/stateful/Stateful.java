@@ -20,7 +20,7 @@ public class Stateful extends JavaTask {
 	int counter = 0;
 	
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		out.putData(new Int32(counter++));
 	}
 

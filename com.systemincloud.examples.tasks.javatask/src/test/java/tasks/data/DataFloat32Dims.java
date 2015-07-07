@@ -17,7 +17,7 @@ public class DataFloat32Dims extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Float32 inFloat32 = in.getData(Float32.class);
 		float[] infloat32 = inFloat32.getValues();
 		float[] outfloat = new float[inFloat32.getNumberOfElements()];

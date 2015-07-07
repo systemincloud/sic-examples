@@ -87,13 +87,13 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.6.1">
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Generator" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.0" implementationClass="tasks.startstop.Generator">
+  <sic:MainTask initialized="true" version="0.7.0">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Generator" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.startstop.Generator">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Control"/>
       </outputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.0" implementationClass="tasks.startstop.Task">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.startstop.Task">
       <inputPort id="In" parent="/1/@task.1">
         <dataType xsi:type="dt:Control"/>
       </inputPort>

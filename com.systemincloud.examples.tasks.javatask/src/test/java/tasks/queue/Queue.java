@@ -19,7 +19,7 @@ public class Queue extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Int32 data1 = in1.getData(Int32.class);
 		Int32 data2 = in2.getData(Int32.class);
 		out.putData(new Int32(data1.getValue() + data2.getValue()));

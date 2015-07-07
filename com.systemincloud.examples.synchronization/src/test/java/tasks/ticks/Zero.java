@@ -17,7 +17,7 @@ public class Zero extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		out.putData(in.getData(Int32.class));
 	}
 

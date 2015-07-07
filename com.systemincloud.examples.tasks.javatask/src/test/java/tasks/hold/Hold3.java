@@ -21,7 +21,7 @@ public class Hold3 extends JavaTask {
 	public OutputPort yPort;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		int a = aPort.getData(Int32.class).getValue();
 		int b = bPort.getData(Int32.class).getValue();
 		int x = xPort.getData(Int32.class).getValue();

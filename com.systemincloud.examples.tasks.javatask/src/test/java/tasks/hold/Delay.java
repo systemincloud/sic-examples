@@ -19,7 +19,7 @@ public class Delay extends JavaTask {
 	private static int DELAY = 500;
 	
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		try { Thread.sleep(DELAY); } catch (InterruptedException e) { }
 		out.putData(in.getData(Int32.class));
 	}

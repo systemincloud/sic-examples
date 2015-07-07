@@ -48,7 +48,7 @@ public class ExtSrcAtomicWith2SIn1AIn extends JavaTask {
 	}
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 //		System.out.println("execute");
 //		System.out.println(in2.getName());
 //		System.out.println(in2.getData(Int32.class));

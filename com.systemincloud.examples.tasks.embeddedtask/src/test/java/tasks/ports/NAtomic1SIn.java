@@ -17,7 +17,7 @@ public class NAtomic1SIn extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		out.putData(in.getData(Text.class));
 	}
 

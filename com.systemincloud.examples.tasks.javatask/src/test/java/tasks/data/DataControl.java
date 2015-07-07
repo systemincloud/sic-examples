@@ -17,7 +17,7 @@ public class DataControl extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		in.getData(Control.class);
 		out.putData(new Control());
 	}

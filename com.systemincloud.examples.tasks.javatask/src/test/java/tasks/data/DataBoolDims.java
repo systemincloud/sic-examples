@@ -19,7 +19,7 @@ public class DataBoolDims extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Bool in1Bool = in1.getData(Bool.class);
 		Bool in2Bool = in2.getData(Bool.class);
 		if(in1Bool.equalDimensions(in2Bool)) {

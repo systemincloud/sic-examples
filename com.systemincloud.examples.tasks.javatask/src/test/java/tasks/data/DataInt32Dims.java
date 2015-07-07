@@ -17,7 +17,7 @@ public class DataInt32Dims extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Int32 inInt32 = in.getData(Int32.class);
 		int[] inint32 = inInt32.getValues();
 		int[] outint = new int[inInt32.getNumberOfElements()];

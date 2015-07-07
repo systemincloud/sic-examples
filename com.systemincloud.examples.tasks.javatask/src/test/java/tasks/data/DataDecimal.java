@@ -17,7 +17,7 @@ public class DataDecimal extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Decimal inDecimal = in.getData(Decimal.class);
 		out.putData(new Decimal(inDecimal.getValue().movePointRight(1)));
 	}

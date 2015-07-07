@@ -30,7 +30,7 @@ public class Atomic2Sin1AIn extends JavaTask {
 	}
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		if(!lock)
 			out.putData(new Int32(in2.getData(Int32.class).getValue() + in3.getData(Int32.class).getValue()));
 	}

@@ -26,7 +26,7 @@ public class GeneratorPauseResume extends JavaTask {
 	}
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		if(isPaused()) resume();
 		else           pause();
 	}

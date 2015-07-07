@@ -27,7 +27,7 @@ public class Atomic2SIn1AIn1Out extends JavaTask {
 	}
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Text in1Text = in1.getData(Text.class);
 		Text in2Text = in2.getData(Text.class);
 		out.putData(new Text(in1Text.getValue() + " " + in2Text.getValue()));

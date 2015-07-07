@@ -20,7 +20,7 @@ public class DataTextDims extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Text inText = in.getData(Text.class);
 		List<String> outtext = new ArrayList<>(inText.getNumberOfElements());
 		for(String v : inText.getValues())

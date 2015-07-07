@@ -196,20 +196,20 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.6.1">
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%u[1000000000000,2000000000000]" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.4" dimensions="2,2">
+  <sic:MainTask initialized="true" version="0.7.0">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%u[1000000000000,2000000000000]" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.5" dimensions="2,2">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int64"/>
       </outputPort>
       <dataType xsi:type="dt:Int64"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[1000000000000,2000000000000]"/>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show In" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.5">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show In" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="x2" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.0" implementationClass="tasks.data.DataInt64Dims">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="x2" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="tasks.data.DataInt64Dims">
       <outputPort id="Out">
         <dataType xsi:type="dt:Int64"/>
       </outputPort>
@@ -217,7 +217,7 @@
         <dataType xsi:type="dt:Int64"/>
       </inputPort>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show Out" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.5">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show Out" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

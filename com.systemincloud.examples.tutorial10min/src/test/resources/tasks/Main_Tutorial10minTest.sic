@@ -258,6 +258,7 @@
     <styles background="/0/@colors.1" foreground="/0/@colors.2" id="TASK"/>
     <styles background="/0/@colors.1" foreground="/0/@colors.2" id="INTERNAL_PORT_STYLE"/>
     <styles background="/0/@colors.2" foreground="/0/@colors.2" lineWidth="1" id="POLYGON-ARROW"/>
+    <styles background="/0/@colors.3" foreground="/0/@colors.2" id="ONLY_LOCAL_TASK"/>
     <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="/0/@children.2/@children.0/@anchors.0" end="/0/@children.0/@children.0/@anchors.0">
       <graphicsAlgorithm xsi:type="al:Polyline" foreground="/0/@colors.2" lineWidth="1" filled="false" transparency="0.0"/>
       <link businessObjects="/1/@connection.0"/>
@@ -349,10 +350,11 @@
     <colors red="227" green="238" blue="249"/>
     <colors red="255" green="255" blue="255"/>
     <colors/>
+    <colors red="220" green="220" blue="220"/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.6.1">
-    <task xsi:type="sic:EmbeddedTask" id="Main_Tutorial10min" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.3.0" implementationTask="src/main/resources/tasks/Main_Tutorial10min.sic">
+  <sic:MainTask initialized="true" version="0.7.0">
+    <task xsi:type="sic:EmbeddedTask" id="Main_Tutorial10min" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.3.1" implementationTask="src/main/resources/tasks/Main_Tutorial10min.sic">
       <outputPort id="X" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
@@ -363,19 +365,19 @@
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%n[0,3]" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.4" dimensions="1" interval="100ms">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%n[0,3]" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.5" dimensions="1" interval="100ms">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%n[0,3]"/>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Display" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.5" newLine="false">
+    <task xsi:type="console_0_1_0:Console" id="Display" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6" onlyLocal="true" newLine="false">
       <inputPort id="In" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="javatask_0_1_0:JavaTask" id="Prepare for display" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.3.0" implementationClass="com.systemincloud.examples.tutorial10min.PrepareForDisplay">
+    <task xsi:type="javatask_0_1_0:JavaTask" id="Prepare for display" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.0" implementationClass="com.systemincloud.examples.tutorial10min.PrepareForDisplay">
       <outputPort id="Out" parent="/1/@task.3">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
@@ -386,12 +388,12 @@
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="x" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.5">
+    <task xsi:type="console_0_1_0:Console" id="x" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6" onlyLocal="true">
       <inputPort id="In" parent="/1/@task.4">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="y" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.5">
+    <task xsi:type="console_0_1_0:Console" id="y" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6" onlyLocal="true">
       <inputPort id="In" parent="/1/@task.5">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

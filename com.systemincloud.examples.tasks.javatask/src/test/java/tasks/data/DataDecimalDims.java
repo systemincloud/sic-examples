@@ -21,7 +21,7 @@ public class DataDecimalDims extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Decimal inDecimal = in.getData(Decimal.class);
 		List<BigDecimal> outdecimal = new ArrayList<>(inDecimal.getNumberOfElements());
 		int i = 0;

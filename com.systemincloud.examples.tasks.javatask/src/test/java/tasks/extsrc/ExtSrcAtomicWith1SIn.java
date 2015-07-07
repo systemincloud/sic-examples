@@ -36,7 +36,7 @@ public class ExtSrcAtomicWith1SIn extends JavaTask {
 	}
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		out.putData(new Text("From In: " + in.getData(Int32.class).getValue()));
 	}
 

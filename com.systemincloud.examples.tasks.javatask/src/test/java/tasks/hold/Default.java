@@ -19,7 +19,7 @@ public class Default extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		out.putData(new Text(in1.getData(Text.class).getValue() + in2.getData(Text.class).getValue()));
 	}
 

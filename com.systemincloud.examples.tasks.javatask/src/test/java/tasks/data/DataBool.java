@@ -19,7 +19,7 @@ public class DataBool extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Bool in1Bool = in1.getData(Bool.class);
 		Bool in2Bool = in2.getData(Bool.class);
 		out.putData(new Bool(in1Bool.getValues()[0] && in2Bool.getValues()[0]));

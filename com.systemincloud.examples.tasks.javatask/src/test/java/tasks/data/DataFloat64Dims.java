@@ -17,7 +17,7 @@ public class DataFloat64Dims extends JavaTask {
 	public OutputPort out;
 
 	@Override
-	public void execute() {
+	public void execute(int grp) {
 		Float64 inFloat64 = in.getData(Float64.class);
 		double[] infloat64 = inFloat64.getValues();
 		double[] outfloat = new double[inFloat64.getNumberOfElements()];
