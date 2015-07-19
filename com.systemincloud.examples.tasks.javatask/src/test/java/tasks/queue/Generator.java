@@ -16,10 +16,11 @@ public class Generator extends JavaTask {
 
 	private int i = 1;
 	private boolean side = true;
-	
-	
+
+
 	@Override
 	public void generate() {
+		sleep(1);
 		if(side) out2.putData(new Int32(i));
 		else     out1.putData(new Int32(i));
 		if((i++)%5 == 0) this.side = ! this.side;

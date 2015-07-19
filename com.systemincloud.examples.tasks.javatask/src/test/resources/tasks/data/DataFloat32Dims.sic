@@ -196,7 +196,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.7.0">
+  <sic:MainTask initialized="true" version="0.7.1">
     <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="%n[0,5]" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.5" dimensions="3,2">
       <outputPort id="Out">
         <dataType xsi:type="dt:Float32"/>
@@ -204,12 +204,12 @@
       <dataType xsi:type="dt:Float32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%n[0,5]"/>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show In" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show In" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.7">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show Out" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.6">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="Show Out" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.7">
       <inputPort id="In">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
