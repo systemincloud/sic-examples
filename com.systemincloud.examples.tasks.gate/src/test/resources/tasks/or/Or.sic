@@ -360,7 +360,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.7.1">
+  <sic:MainTask initialized="true" version="0.7.2">
     <task xsi:type="or_0_1_0:Or" id="My Or" bundleName="com.systemincloud.modeler.tasks.gate.or" version="0.1.4">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Bool"/>
