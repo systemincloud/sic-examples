@@ -253,7 +253,7 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.7.1">
+  <sic:MainTask initialized="true" version="0.7.2">
     <task xsi:type="xor_0_1_0:Xor" id="My Xor" bundleName="com.systemincloud.modeler.tasks.gate.xor" version="0.1.4" inputNumber="3">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Bool"/>
