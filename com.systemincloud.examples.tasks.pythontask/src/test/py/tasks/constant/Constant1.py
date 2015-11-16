@@ -9,5 +9,11 @@ class Constant1(PythonTask):
     def __init_ports__(self):
         self.out = OutputPort(name="Out", data_type=Text)
 
+    def __init__(self):
+        self.logger.error("tttt")
+        print("yyyyy")
+
     def execute(self, grp):
+        print("yyyyy")
+        self.logger.error("vvvv")
         self.out.put_data(Text("Hello World"))
