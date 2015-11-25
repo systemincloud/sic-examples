@@ -90,7 +90,7 @@
   <sic:MainTask initialized="true" version="0.8.0">
     <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.constant.Constant1">
       <outputPort id="Out" parent="/1/@task.0">
-        <dataType xsi:type="dt:Text"/>
+        <dataType xsi:type="dt:Bool"/>
       </outputPort>
     </task>
     <task xsi:type="inspect_0_1_0:Inspect" id="Show" bundleName="com.systemincloud.modeler.tasks.inspect" version="0.1.3" onlyLocal="true">
