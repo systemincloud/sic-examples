@@ -14,7 +14,7 @@ class DataBoolDims(PythonTask):
         self.out = OutputPort(name="out", data_type=Bool)
 
     def execute(self, grp):
-        in1Bool = self.in1.get_data(Bool);
-        in2Bool = self.in2.get_data(Bool);
+        in1Bool = self.in1.get_data(Bool)
+        in2Bool = self.in2.get_data(Bool)
         ret = list(map(and_, in1Bool.values, in2Bool.values))
-        self.out.put_data(Bool(ret, in1Bool.dims));
+        self.out.put_data(Bool(ret, in1Bool.dims))

@@ -13,7 +13,7 @@ class DataBool(PythonTask):
         self.out = OutputPort(name="out", data_type=Bool)
 
     def execute(self, grp):
-        in1Bool = self.in1.get_data(Bool);
-        in2Bool = self.in2.get_data(Bool);
-        self.out.put_data(Bool(in1Bool.values[0] and in2Bool.values[0]));
+        in1Bool = self.in1.get_data(Bool)
+        in2Bool = self.in2.get_data(Bool)
+        self.out.put_data(Bool(in1Bool.values[0] and in2Bool.values[0]))
 

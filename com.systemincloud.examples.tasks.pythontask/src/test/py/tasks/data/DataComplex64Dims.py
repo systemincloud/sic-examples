@@ -14,7 +14,7 @@ class DataComplex64Dims(PythonTask):
         self.out = OutputPort(name="out", data_type=Complex64)
 
     def execute(self, grp):
-        in1Data = self.in1.get_data(Complex64);
-        in2Data = self.in2.get_data(Complex64);
+        in1Data = self.in1.get_data(Complex64)
+        in2Data = self.in2.get_data(Complex64)
         ret = list(map(add, in1Data.values, in2Data.values))
-        self.out.put_data(Complex64(ret, in1Data.dims));
+        self.out.put_data(Complex64(ret, in1Data.dims))

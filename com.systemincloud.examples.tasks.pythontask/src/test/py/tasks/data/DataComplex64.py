@@ -13,6 +13,6 @@ class DataComplex64(PythonTask):
         self.out = OutputPort(name="out", data_type=Complex64)
 
     def execute(self, grp):
-        in1Data = self.in1.get_data(Complex64);
-        in2Data = self.in2.get_data(Complex64);
-        self.out.put_data(Complex64(in1Data.values[0] + in2Data.values[0]));
+        in1Data = self.in1.get_data(Complex64)
+        in2Data = self.in2.get_data(Complex64)
+        self.out.put_data(Complex64(in1Data.values[0] + in2Data.values[0]))
