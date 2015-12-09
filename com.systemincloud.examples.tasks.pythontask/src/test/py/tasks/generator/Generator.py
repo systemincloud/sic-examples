@@ -12,4 +12,3 @@ class Generator(PythonTask):
     def generate(self):
         self.out.put_data(Text("Hello World"));
         self.sleep(3000);
-
