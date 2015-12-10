@@ -10,5 +10,5 @@ class Generator(PythonTask):
         self.out = OutputPort(name="out", data_type=Text)
 
     def generate(self):
-        self.out.put_data(Text("Hello World"));
-        self.sleep(3000);
+        self.out.put_data(Text("Hello World"))
+        self.sleep(3000)

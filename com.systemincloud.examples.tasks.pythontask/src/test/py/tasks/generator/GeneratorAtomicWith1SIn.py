@@ -13,8 +13,8 @@ class GeneratorAtomicWith1SIn(PythonTask):
         self.out = OutputPort(name="out", data_type=[Int32, Text])
 
     def generate(self):
-        self.out.put_data(Text("Hello World"));
-        self.sleep(1000);
+        self.out.put_data(Text("Hello World"))
+        self.sleep(1000)
 
     def execute(self, grp):
         inValue = self.in_.get_data(Int32).values[0]

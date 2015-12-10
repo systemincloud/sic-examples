@@ -22,8 +22,8 @@ class GeneratorAtomicWith2SIn1AIn(PythonTask):
 
     def generate(self):
         if self.on:
-            self.out.put_data(Int32(637343730));
-        self.sleep(500);
+            self.out.put_data(Int32(637343730))
+        self.sleep(500)
 
     def execute(self, grp):
-        self.out.put_data(Int32(self.in1.get_data(Int32).values[0] + self.in2.get_data(Int32).values[0]));
+        self.out.put_data(Int32(self.in1.get_data(Int32).values[0] + self.in2.get_data(Int32).values[0]))
