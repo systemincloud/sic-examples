@@ -156,7 +156,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.breakr.Break">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" onlyLocal="true" implementation="tasks.breakr.Break">
       <inputPort id="In" parent="/1/@task.2" queueSize="inf" defaultQueueSize="inf">
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
