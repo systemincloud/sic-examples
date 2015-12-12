@@ -12,8 +12,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src/main/py"/>
-	<classpathentry kind="src" path="src/test/py"/>
+	<classpathentry kind="src" path="src/main/py" excluding="**/__pycache__/**"/>
+	<classpathentry kind="src" path="src/test/py" excluding="**/__pycache__/**"/>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
