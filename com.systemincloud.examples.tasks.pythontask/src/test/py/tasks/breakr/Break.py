@@ -12,4 +12,4 @@ class Break(PythonTask):
     def execute(self, grp):
         i = self.in_1.get_data(Int32).values[0]
         if i == 3:
-            self.exitRunner()
+            self.exit_runner()
