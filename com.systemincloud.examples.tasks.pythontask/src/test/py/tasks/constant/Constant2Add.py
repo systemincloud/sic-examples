@@ -13,6 +13,5 @@ class Constant2Add(PythonTask):
         self.out = OutputPort(name="Out", data_type=Int32)
 
     def execute(self, grp):
-        self.in_1.get_data(Int32)
-        suma = Int32(self.in_1.get_data(Int32).values[0] + self.in_2.get_data(Int32).values[0])
+        suma = Int32(self.in_1.get_data(Int32).value + self.in_2.get_data(Int32).value)
         self.out.put_data(suma)
