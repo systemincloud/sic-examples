@@ -191,7 +191,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.8.0">
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" onlyLocal="true" implementation="tasks.queue.Default">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.queue.Default">
       <outputPort id="out" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
@@ -202,7 +202,7 @@
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task 1" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" onlyLocal="true" implementation="tasks.queue.Generator">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task 1" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.queue.Generator">
       <outputPort id="out1" parent="/1/@task.1">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
