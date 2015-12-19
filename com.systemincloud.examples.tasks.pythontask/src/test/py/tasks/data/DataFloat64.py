@@ -15,4 +15,4 @@ class DataFloat64(PythonTask):
     def execute(self, grp):
         in1Data = self.in1.get_data(Float64)
         in2Data = self.in2.get_data(Float64)
-        self.out.put_data(Float64(in1Data.values[0] + in2Data.values[0]))
+        self.out.put_data(Float64(in1Data.value + in2Data.value))

@@ -3,7 +3,7 @@ from sicpythontask.PythonTask import PythonTask
 from sicpythontask.InputPort import InputPort
 from sicpythontask.OutputPort import OutputPort
 from sicpythontask.data.Complex64 import Complex64
-from _operator import add
+from operator import add
 
 @PythonTaskInfo
 class DataComplex64Dims(PythonTask):

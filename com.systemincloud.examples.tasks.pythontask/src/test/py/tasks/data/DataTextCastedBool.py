@@ -14,5 +14,5 @@ class DataTextCastedBool(PythonTask):
 
     def execute(self, grp):
         inData = self.in_.get_data(Text)
-        self.out.put_data(Text(inData.values[0].upper()))
+        self.out.put_data(Text(inData.value.upper()))
 
