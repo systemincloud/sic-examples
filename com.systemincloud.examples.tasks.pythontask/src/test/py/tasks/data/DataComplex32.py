@@ -15,4 +15,4 @@ class DataComplex32(PythonTask):
     def execute(self, grp):
         in1Data = self.in1.get_data(Complex32)
         in2Data = self.in2.get_data(Complex32)
-        self.out.put_data(Complex32(in1Data.values[0] + in2Data.values[0]))
+        self.out.put_data(Complex32(in1Data.value + in2Data.value))
