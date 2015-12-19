@@ -13,6 +13,5 @@ class DataText(PythonTask):
 
     def execute(self, grp):
         inData = self.in_.get_data(Text)
-        inRaw = inData.values
-        print(inRaw)
-        self.out.put_data(Text(inRaw))
+        inText = inData.values
+        self.out.put_data(Text(inText))
