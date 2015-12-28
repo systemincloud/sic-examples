@@ -228,14 +228,14 @@
       <specific key="TEXT_CASE" value="ANY"/>
       <specific key="TEXT_LENGTH" value="5"/>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" onlyLocal="true" implementation="tasks.hold.Default">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.hold.Default">
       <outputPort id="out" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
-      <inputPort id="in1" parent="/1/@task.2" queueSize="inf" defaultQueueSize="inf">
+      <inputPort id="in1" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
-      <inputPort id="in2" parent="/1/@task.2" queueSize="inf" holdLast="true" defaultQueueSize="inf" defaultHoldLast="true">
+      <inputPort id="in2" parent="/1/@task.2" holdLast="true" defaultHoldLast="true">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
