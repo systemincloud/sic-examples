@@ -156,7 +156,7 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="rtask_0_1_0:RTask" id="My R Task" bundleName="com.systemincloud.modeler.tasks.rtask" version="0.1.0" implementation="src/test/r/break/Break.R">
+    <task xsi:type="rtask_0_1_0:RTask" id="My R Task" bundleName="com.systemincloud.modeler.tasks.rtask" version="0.1.0" implementation="src/test/r/breakr/Break.R">
       <inputPort id="in1" parent="/1/@task.2">
         <dataType xsi:type="dt:Int32"/>
       </inputPort>
