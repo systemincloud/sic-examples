@@ -18,7 +18,7 @@ Constant2Add <- R6Class("Constant2Add",
       self$initialize_ports()
     },
     execute = function(grp) {
-	  sum = Int32$new(self$in1$get_data("Int32")$value + self$in2$get_data("Int32")$value)
+	  sum <- Int32$new(self$in1$get_data("Int32")$value + self$in2$get_data("Int32")$value)
 	  self$out$put_data(sum)
 	}
   ),
