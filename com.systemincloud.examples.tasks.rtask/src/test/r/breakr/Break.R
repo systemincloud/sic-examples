@@ -15,7 +15,7 @@ Break <- R6Class("Break",
     },
     execute = function(grp) {
 	  data <- self$in1$get_data("Int32")
-	  i = data$values[0]
+	  i <- data$values[0]
 	  if( i == 3 ) self$exit_runner()
 	}
   ),
