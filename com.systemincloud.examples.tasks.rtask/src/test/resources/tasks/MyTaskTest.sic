@@ -1,10 +1,108 @@
 <?xml version="1.0" encoding="ASCII"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:sic="http://systemincloud.com/sic">
-  <pi:Diagram visible="true" gridUnit="-1" diagramTypeId="SystemInCloud" name="MyTaskTest" pictogramLinks="/0/@link" version="0.12.0">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:dt="http://systemincloud.com/dt" xmlns:javatask_0_1_0="http://modeler.systemincloud.com/tasks/javatask/0_1_0" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:pythontask_0_1_0="http://modeler.systemincloud.com/tasks/pythontask/0_1_0" xmlns:rtask_0_1_0="http://modeler.systemincloud.com/tasks/rtask/0_1_0" xmlns:sic="http://systemincloud.com/sic">
+  <pi:Diagram visible="true" gridUnit="-1" diagramTypeId="SystemInCloud" name="MyTaskTest" pictogramLinks="/0/@link /0/@children.0/@link /0/@children.1/@link /0/@children.2/@link /0/@children.3/@link /0/@children.4/@link /0/@children.5/@link /0/@children.6/@link /0/@children.7/@link /0/@children.0/@children.0/@link /0/@children.0/@children.1/@link" version="0.12.0">
     <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
     <link businessObjects="/1"/>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="120" height="70" x="445" y="90">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="120" height="70" style="/0/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="44" height="44" x="38" y="13" id="IMG_RTASK_DIAGRAM" stretchH="false" stretchV="false" proportional="false"/>
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="120" height="26" y="44" style="/0/@styles.1" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="Break.R">
+          <properties key="icon-description" value="true"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <link businessObjects="/1/@task.0 /0/@children.1"/>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="internal-port" value="true"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="10" height="10" y="30" cornerHeight="5" cornerWidth="5">
+          <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="10" height="10" style="/0/@styles.2" cornerHeight="5" cornerWidth="5"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/@task.0/@inputPort.0 /0/@children.0/@children.1"/>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="port-label" value="true"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="20" x="10" y="27">
+          <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="19" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="in1"/>
+        </graphicsAlgorithm>
+        <link businessObjects="/1/@task.0/@inputPort.0 /0/@children.0/@children.0"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="label" value="true"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="57" height="20" x="477" y="162">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="57" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="My R Task"/>
+      </graphicsAlgorithm>
+      <link businessObjects="/1/@task.0 /0/@children.0"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="120" height="70" x="608" y="87">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="120" height="70" style="/0/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="44" height="44" x="38" y="13" id="IMG_PYTHONTASK_DIAGRAM" stretchH="false" stretchV="false" proportional="false"/>
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="120" height="26" y="44" style="/0/@styles.1" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="???">
+          <properties key="icon-description" value="true"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <link businessObjects="/1/@task.1 /0/@children.3"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="label" value="true"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="82" height="20" x="628" y="159">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="82" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="My Python Task"/>
+      </graphicsAlgorithm>
+      <link businessObjects="/1/@task.1 /0/@children.2"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="120" height="70" x="279" y="87">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="120" height="70" style="/0/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="44" height="44" x="38" y="13" id="IMG_JAVATASK_DIAGRAM" stretchH="false" stretchV="false" proportional="false"/>
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="120" height="26" y="44" style="/0/@styles.1" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="???">
+          <properties key="icon-description" value="true"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <link businessObjects="/1/@task.2 /0/@children.5"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="label" value="true"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="71" height="20" x="304" y="159">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="71" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="My Java Task"/>
+      </graphicsAlgorithm>
+      <link businessObjects="/1/@task.2 /0/@children.4"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="120" height="70" x="767" y="87">
+        <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="120" height="70" style="/0/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithmChildren xsi:type="al:Image" lineWidth="1" transparency="0.0" width="44" height="44" x="38" y="13" id="IMG_EMBEDDEDTASK_DIAGRAM_MAIN" stretchH="false" stretchV="false" proportional="false"/>
+        <graphicsAlgorithmChildren xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="120" height="26" y="44" style="/0/@styles.1" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" value="???">
+          <properties key="icon-description" value="true"/>
+        </graphicsAlgorithmChildren>
+      </graphicsAlgorithm>
+      <link businessObjects="/1/@task.3 /0/@children.7"/>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="label" value="true"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="101" height="20" x="777" y="159">
+        <graphicsAlgorithmChildren xsi:type="al:MultiText" lineWidth="1" filled="false" transparency="0.0" width="101" height="19" font="/0/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="My Embedded Task"/>
+      </graphicsAlgorithm>
+      <link businessObjects="/1/@task.3 /0/@children.6"/>
+    </children>
+    <styles background="/0/@colors.3" foreground="/0/@colors.2" id="ONLY_LOCAL_TASK"/>
+    <styles background="/0/@colors.1" foreground="/0/@colors.2" id="TASK"/>
+    <styles background="/0/@colors.1" foreground="/0/@colors.2" id="INTERNAL_PORT_STYLE"/>
     <colors red="227" green="238" blue="249"/>
     <colors red="255" green="255" blue="255"/>
+    <colors/>
+    <colors red="220" green="220" blue="220"/>
+    <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.9.0"/>
+  <sic:MainTask initialized="true" version="0.9.0">
+    <task xsi:type="rtask_0_1_0:RTask" id="My R Task" bundleName="com.systemincloud.modeler.tasks.rtask" version="0.1.0" implementation="src/test/r/break/Break.R">
+      <inputPort id="in1" parent="/1/@task.0">
+        <dataType xsi:type="dt:Int32"/>
+      </inputPort>
+    </task>
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0"/>
+    <task xsi:type="javatask_0_1_0:JavaTask" id="My Java Task" bundleName="com.systemincloud.modeler.tasks.javatask" version="0.4.1"/>
+    <task xsi:type="sic:EmbeddedTask" id="My Embedded Task" bundleName="com.systemincloud.modeler.tasks.embeddedtask" version="0.3.2"/>
+  </sic:MainTask>
 </xmi:XMI>
