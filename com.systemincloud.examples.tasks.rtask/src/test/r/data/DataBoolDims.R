@@ -2,7 +2,7 @@
 library(R6)
 library(sicrtask)
 
-DataBool <- R6Class("DataBool",
+DataBoolDims <- R6Class("DataBoolDims",
   inherit = RTask,
   public = list(
     rtaskinfo = RTaskInfo$new(),
@@ -18,10 +18,11 @@ DataBool <- R6Class("DataBool",
       self$initialize_ports()
     },
     execute = function(grp) {
-	  in1Bool <- self$in1$get_data("Bool")
-	  in2Bool <- self$in2$get_data("Bool")
-	  self$out$put_data(Bool$new(in1Bool$values[0] && in2Bool$values[0]))
-    }
+		in1Bool <- self$in1$get_data("Bool")
+		in2Bool <- self$in2$get_data("Bool")
+		ret <- in1Bool$values & in2Bool$values
+		self$out$put_data(Bool$new(ret, in1Bool$dims))
+	}
   ),
   private = list(
   )
