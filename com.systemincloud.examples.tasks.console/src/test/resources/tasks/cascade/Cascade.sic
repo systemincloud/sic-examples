@@ -138,8 +138,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.8.0">
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="2" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.8" consoleType="INOUT">
+  <sic:MainTask initialized="true" version="0.9.0">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="2" bundleName="com.systemincloud.modeler.tasks.console" version="0.2.0" consoleType="INOUT">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
@@ -147,12 +147,12 @@
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="1" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.8" consoleType="OUT">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="1" bundleName="com.systemincloud.modeler.tasks.console" version="0.2.0" consoleType="OUT">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Text"/>
       </outputPort>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="3" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.8">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="3" bundleName="com.systemincloud.modeler.tasks.console" version="0.2.0">
       <inputPort id="In" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </inputPort>

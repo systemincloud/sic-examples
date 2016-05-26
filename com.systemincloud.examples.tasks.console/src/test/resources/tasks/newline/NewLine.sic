@@ -123,18 +123,18 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.8.0">
-    <task xsi:type="console_0_1_0:Console" id="New Line" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.8" onlyLocal="true">
+  <sic:MainTask initialized="true" version="0.9.0">
+    <task xsi:type="console_0_1_0:Console" id="New Line" bundleName="com.systemincloud.modeler.tasks.console" version="0.2.0" onlyLocal="true">
       <inputPort id="In" parent="/1/@task.0">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="console_0_1_0:Console" id="No new line" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.8" onlyLocal="true" newLine="false">
+    <task xsi:type="console_0_1_0:Console" id="No new line" bundleName="com.systemincloud.modeler.tasks.console" version="0.2.0" onlyLocal="true" newLine="false">
       <inputPort id="In" parent="/1/@task.1">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
     </task>
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.6" dimensions="1">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.3.0" dimensions="1">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Text"/>
       </outputPort>

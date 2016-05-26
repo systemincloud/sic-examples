@@ -12,6 +12,8 @@
 	  </classpathentry>
 	  <classpathentry kind="src" path="src/main/py" excluding="**/__pycache__/**"/>
    <classpathentry kind="src" path="src/test/py" excluding="**/__pycache__/**"/>
+   <classpathentry kind="src" path="src/main/r" excluding=""/>
+   <classpathentry kind="src" path="src/test/r" excluding=""/>
    <classpathentry excluding="**/*.java"
                    including="**/*.java"
                    kind="src"

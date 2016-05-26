@@ -84,8 +84,8 @@
     <colors/>
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
-  <sic:MainTask initialized="true" version="0.8.0">
-    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.2.6" dimensions="1">
+  <sic:MainTask initialized="true" version="0.9.0">
+    <task xsi:type="randomgenerator_0_1_0:RandomGenerator" id="My Random Generator" bundleName="com.systemincloud.modeler.tasks.randomgenerator" version="0.3.0" dimensions="1">
       <outputPort id="Out" parent="/1/@task.0">
         <dataType xsi:type="dt:Complex32"/>
       </outputPort>
@@ -96,7 +96,7 @@
       <specific key="COMPLEX_MAG" value="%u[0,1]"/>
       <specific key="COMPLEX_ARG" value="%u[0,6.28]"/>
     </task>
-    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="My Console" bundleName="com.systemincloud.modeler.tasks.console" version="0.1.8">
+    <task onlyLocal="true" xsi:type="console_0_1_0:Console" id="My Console" bundleName="com.systemincloud.modeler.tasks.console" version="0.2.0">
       <inputPort id="In" parent="/1/@task.1">
         <dataType xsi:type="dt:Text"/>
       </inputPort>
