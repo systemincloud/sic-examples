@@ -204,7 +204,7 @@
         <dataType xsi:type="dt:Raw"/>
       </outputPort>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="BitInverse" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.data.DataRawDims">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="BitInverse" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.data.DataRawDims">
       <outputPort id="out" parent="/1/@task.1">
         <dataType xsi:type="dt:Raw"/>
       </outputPort>

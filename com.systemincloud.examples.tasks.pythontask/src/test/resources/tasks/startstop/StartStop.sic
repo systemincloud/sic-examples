@@ -90,12 +90,12 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.9.0">
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.startstop.Generator">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.startstop.Generator">
       <outputPort id="out" parent="/1/@task.0">
         <dataType xsi:type="dt:Control"/>
       </outputPort>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task 1" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.startstop.Task">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task 1" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.startstop.Task">
       <inputPort id="in" parent="/1/@task.1" queueSize="inf" defaultQueueSize="inf">
         <dataType xsi:type="dt:Control"/>
       </inputPort>

@@ -347,7 +347,7 @@
       <dataType xsi:type="dt:Float64"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,10]"/>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.ports.Atomic3SIn0AIn2Out">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.ports.Atomic3SIn0AIn2Out">
       <outputPort id="out1" parent="/1/@task.3">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

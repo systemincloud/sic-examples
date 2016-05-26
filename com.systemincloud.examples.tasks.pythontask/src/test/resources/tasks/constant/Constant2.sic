@@ -321,12 +321,12 @@
       <dataType xsi:type="dt:Int32"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[0,5]"/>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="5" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.constant.Constant2">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="5" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.constant.Constant2">
       <outputPort id="Out" parent="/1/@task.1">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="Add" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.constant.Constant2Add">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="Add" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.constant.Constant2Add">
       <outputPort id="Out" parent="/1/@task.2">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

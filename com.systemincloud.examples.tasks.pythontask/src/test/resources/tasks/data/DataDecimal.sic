@@ -207,7 +207,7 @@
       <specific key="DECIMAL_NUMBER" value="10"/>
       <specific key="NUMERIC_DISTRIBUTION" value="%u[-500000,500000]"/>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="x10" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.data.DataDecimal">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="x10" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.data.DataDecimal">
       <outputPort id="out" parent="/1/@task.1">
         <dataType xsi:type="dt:Decimal"/>
       </outputPort>

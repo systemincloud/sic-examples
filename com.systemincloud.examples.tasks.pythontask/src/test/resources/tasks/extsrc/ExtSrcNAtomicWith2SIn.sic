@@ -211,7 +211,7 @@
     <fonts name="Arial" size="8"/>
   </pi:Diagram>
   <sic:MainTask initialized="true" version="0.9.0">
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" atomic="false" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.extsrc.ExtSrcNAtomicWith2SIn">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" atomic="false" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.extsrc.ExtSrcNAtomicWith2SIn">
       <outputPort id="out" parent="/1/@task.0">
         <dataType xsi:type="dt:Int32"/>
       </outputPort>

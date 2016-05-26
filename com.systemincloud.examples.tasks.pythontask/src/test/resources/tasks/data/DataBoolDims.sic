@@ -327,7 +327,7 @@
       </outputPort>
       <dataType xsi:type="dt:Bool"/>
     </task>
-    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.1.0" implementation="tasks.data.DataBoolDims">
+    <task xsi:type="pythontask_0_1_0:PythonTask" id="My Python Task" bundleName="com.systemincloud.modeler.tasks.pythontask" version="0.2.0" implementation="tasks.data.DataBoolDims">
       <outputPort id="out" parent="/1/@task.2">
         <dataType xsi:type="dt:Bool"/>
       </outputPort>
